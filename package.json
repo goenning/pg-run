@@ -1,12 +1,26 @@
 {
   "name": "pg-run",
   "version": "0.0.1",
+  "description": "pg-run is a thin and fast wrapper around node-postgres with a sync-like API",
+  "keywords": [
+    "postgres",
+    "pg",
+    "postgre",
+    "database",
+    "rdbms"
+  ],
+  "homepage": "http://github.com/goenning/pg-run",
+  "repository": {
+    "type": "git",
+    "url": "git://http://github.com/goenning/pg-run.git"
+  },
+  "author": "Guilherme Oenning <oenning.ti@gmail.com>",
   "devDependencies": {
-    "chai": "latest",
-    "eslint": "latest",
-    "istanbul": "latest",
-    "mocha": "latest",
-    "pg": "latest"
+    "chai": "^3.3.0",
+    "eslint": "^1.6.0",
+    "istanbul": "^0.3.22",
+    "mocha": "^2.3.3",
+    "pg": "^4.4.2"
   },
   "scripts": {
     "lint": "eslint config/** lib/** *.js test/** || true",
@@ -15,5 +29,9 @@
     "coverage": "npm run-script analyze-coverage && npm run-script check-coverage",
     "analyze-coverage": "istanbul cover _mocha test",
     "check-coverage": "istanbul check-coverage --statement 95 --branch 95 --function 95 --lines 95 || true"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">= 4.0.0"
   }
 }
