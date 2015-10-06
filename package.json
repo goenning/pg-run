@@ -1,0 +1,19 @@
+{
+  "name": "pg-run",
+  "version": "0.0.1",
+  "devDependencies": {
+    "chai": "latest",
+    "eslint": "latest",
+    "istanbul": "latest",
+    "mocha": "latest",
+    "pg": "latest"
+  },
+  "scripts": {
+    "lint": "eslint config/** lib/** *.js test/** || true",
+    "test": "mocha test/",
+    "test:watch": "mocha -w test/ || true",
+    "coverage": "npm run-script analyze-coverage && npm run-script check-coverage",
+    "analyze-coverage": "istanbul cover _mocha test",
+    "check-coverage": "istanbul check-coverage --statement 95 --branch 95 --function 95 --lines 95 || true"
+  }
+}
