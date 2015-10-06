@@ -1,5 +1,7 @@
 ###Work is still in progress!
 
+[![Build Status](https://travis-ci.org/goenning/pg-run.svg?branch=master)](https://travis-ci.org/goenning/pg-run)
+
 #pg-run
 
 `pg-run` is a thin and fast wrapper around [node-postgres](https://github.com/brianc/node-postgres) with a `sync-like` API.
