@@ -1,6 +1,6 @@
 {
   "name": "pg-run",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "pg-run is a thin and fast wrapper around node-postgres with a sync-like API",
   "keywords": [
     "postgres",
