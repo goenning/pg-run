@@ -12,7 +12,10 @@
   "homepage": "http://github.com/goenning/pg-run",
   "repository": {
     "type": "git",
-    "url": "git://http://github.com/goenning/pg-run.git"
+    "url": "http://github.com/goenning/pg-run.git"
+  },
+  "bugs": {
+    "url": "http://github.com/goenning/pg-run/issues"
   },
   "author": "Guilherme Oenning <oenning.ti@gmail.com>",
   "devDependencies": {
